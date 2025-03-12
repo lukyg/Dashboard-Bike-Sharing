@@ -33,9 +33,6 @@ filtered_data = data[
     (data["season_mapped"] == selected_season)
 ]
 
-# Logo
-st.sidebar.image("sewa_sepeda.jpg", width=300)
-
 # Scorecards
 st.subheader("Jumlah Penyewa")
 with st.container():
